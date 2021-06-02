@@ -1,0 +1,1130 @@
+[2021-05-17 17:16:14] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
+[2021-05-17 17:16:15] INFO [liquibase.pro] Successfully installed license from Base64 string starting with 'ABwwGgQUqm' (property liquibaseProLicenseKey).
+
+[2021-05-17 17:16:15] FINE [liquibase.pro] checking if license is installed
+[2021-05-17 17:16:15] FINE [liquibase.integration] Adding 'file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/ojdbc8-19.3.0.0.jar' to the Java classpath.
+[2021-05-17 17:16:15] FINE [liquibase.integration] Liquibase Hub API Key:  XKxvwW************
+[2021-05-17 17:16:15] FINE [liquibase.integration] Liquibase Hub URL:      https://hub.liquibase.com
+[2021-05-17 17:16:15] FINE [liquibase.integration] Liquibase Hub Mode:     OFF
+[2021-05-17 17:16:15] FINE [liquibase.resource] Adding path C:\Liquibase\liquibase-4.3.1\oracle_demo\. to resourceAccessor liquibase.resource.FileSystemResourceAccessor
+[2021-05-17 17:16:15] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.CockroachDatabase
+[2021-05-17 17:16:15] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DB2Database
+[2021-05-17 17:16:15] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Db2zDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DerbyDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Firebird3Database
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.FirebirdDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.H2Database
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.HsqlDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.InformixDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Ingres9Database
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MSSQLDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MariaDBDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MockDatabase
+[2021-05-17 17:16:16] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MySQLDatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.OracleDatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.PostgresDatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SQLiteDatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseASADatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseDatabase
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.UnsupportedDatabase
+[2021-05-17 17:16:17] FINE [liquibase.database] Properties:
+[2021-05-17 17:16:17] FINE [liquibase.database] Key:'user' Value:'SYSTEM'
+[2021-05-17 17:16:17] FINE [liquibase.database] Key:'password' Value:'**********'
+[2021-05-17 17:16:17] FINE [liquibase.database] Connecting to the URL:'jdbc:oracle:thin:@localhost:1521/xe' using driver:'oracle.jdbc.OracleDriver'
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection
+[2021-05-17 17:16:17] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection
+[2021-05-17 17:16:18] FINE [liquibase.database] Connection has been created
+[2021-05-17 17:16:18] FINE [liquibase.database] Connected to SYSTEM@jdbc:oracle:thin:@localhost:1521/xe
+[2021-05-17 17:16:18] FINE [liquibase.database] Setting auto commit to false from true
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Catalog
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Column
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Data
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.ForeignKey
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Index
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.PrimaryKey
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Schema
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Sequence
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.StoredProcedure
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Table
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.UniqueConstraint
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.View
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.appdba.synonym.Synonym
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.function.Function
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.trigger.Trigger
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance liquibase.executor.jvm.JdbcExecutor
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.OracleSqlPlusExecutor
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorDB2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorHsqlH2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorMySQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorSQLite
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNull
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorSQLite
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorDerby
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMSSQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMySQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorOracle
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorPostgres
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSQLite
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybase
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybaseASA
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorTDS
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AlterSequenceGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.BatchDmlExecutablePreparedStatementGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ClearDatabaseChangeLogTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CommentGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CopyRowsGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGeneratorSybase
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorFirebird
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorPostgres
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateProcedureGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DeleteGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropColumnGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropForeignKeyConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropIndexGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropPrimaryKeyGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropSequenceGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropUniqueConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropViewGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetNextChangeSetSequenceValueGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDB2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDerby
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorFirebird
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorHsql
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorMSSQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorOracle
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorPostgres
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybase
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybaseASA
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InitializeDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertDataChangeGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorDB2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorH2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorHsql
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorInformix
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMSSQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMySQL
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorOracle
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorPostgres
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSQLite
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSybaseASA
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertSetGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.LockDatabaseChangeLogGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.MarkChangeSetRanGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ModifyDataTypeGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawSqlGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReindexGeneratorSQLite
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RemoveChangeSetRanStatusGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameColumnGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameSequenceGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReorganizeTableGeneratorDB2
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RuntimeGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetNullableGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.StoredProcedureGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TableRowCountGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TagDatabaseGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UnlockDatabaseChangeLogGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateChangeSetChecksumGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateDataChangeGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnusedGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerGenerator
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.formattedsql.FormattedSqlChangeLogParser
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.json.JsonChangeLogParser
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.sql.SqlChangeLogParser
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.xml.XMLChangeLogSAXParser
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.yaml.YamlChangeLogParser
+[2021-05-17 17:16:19] FINE [liquibase.resource] Closing duplicate stream for file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/mychangelog.xml
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.CustomPreconditionWrapper
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.AndPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeLogPropertyDefinedPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeSetExecutedPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ColumnExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.DBMSPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ForeignKeyExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.IndexExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.NotPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ObjectQuotingStrategyPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.OrPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PreconditionContainer
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PrimaryKeyExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RowCountPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RunningAsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SequenceExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SqlPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableIsEmptyPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ViewExistsPrecondition
+[2021-05-17 17:16:19] FINE [liquibase.parser] Resolving XML entity name='null', publicId='null', baseURI='null', systemId='http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd'
+[2021-05-17 17:16:19] FINE [liquibase.resource] Closing duplicate stream for jar:file:/C:/Liquibase/liquibase-4.3.1/liquibase.jar!/www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+[2021-05-17 17:16:19] FINE [liquibase.parser] Found XML entity at jar:file:/C:/Liquibase/liquibase-4.3.1/liquibase.jar!/www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddAutoIncrementChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddColumnChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddDefaultValueChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddForeignKeyConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddLookupTableChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddNotNullConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddPrimaryKeyChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddUniqueConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AlterSequenceChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateIndexChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateProcedureChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateSequenceChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateTableChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateViewChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DeleteDataChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropAllForeignKeyConstraintsChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropColumnChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropDefaultValueChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropForeignKeyConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropIndexChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropNotNullConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropPrimaryKeyChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropProcedureChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropSequenceChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropTableChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropUniqueConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropViewChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.EmptyChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.ExecuteShellCommandChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.InsertDataChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.LoadDataChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.LoadUpdateDataChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.MergeColumnChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.ModifyDataTypeChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.OutputChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RawSQLChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameColumnChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameSequenceChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameTableChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameViewChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SQLFileChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SetColumnRemarksChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SetTableRemarksChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.StopChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.TagDatabaseChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.UpdateDataChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.custom.CustomChangeWrapper
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnsedChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerChange
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.CatalogSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorH2
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorInformix
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorOracle
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorPostgres
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.DataSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ForeignKeySnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.IndexSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.PrimaryKeySnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.TableSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ViewSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.appdba.synonym.SynonymSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.postgres.PostgresCheckConstraintSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageBodySnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.FunctionSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.EDBPostgresFunctionSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.PostgresFunctionSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.mysql.MySQLFunctionSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.PostgresStoredProcedureSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MySQLStoredProcedureSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.StoredProcedureSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.postgres.PostgresTriggerSnapshotGenerator
+[2021-05-17 17:16:20] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:16:20] FINE [liquibase.util] Computed checksum for createTable:[
+    columns=[
+        [
+            [
+                nullable="false"
+                primaryKey="true"
+            ]
+            name="id"
+            type="int"
+        ],
+        [
+            name="firstname"
+            type="varchar(50)"
+        ],
+        [
+            [
+                notNullConstraintName="JOB_TITLE_NN1234"
+                nullable="false"
+            ]
+            name="lastname"
+            type="varchar(50)"
+        ],
+        [
+            defaultVal... [truncated in log] as 6ddd306d312aa9070b223d784b388a02
+[2021-05-17 17:16:20] FINE [liquibase.util] Computed checksum for 8:6ddd306d312aa9070b223d784b388a02: as d5fd51a207952d6b5c1773a9355d89ca
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BigIntType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BlobType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BooleanType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CharType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.ClobType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CurrencyType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DatabaseFunctionType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateTimeType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DecimalType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.FloatType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.IntType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.MediumIntType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NCharType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NVarcharType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NumberType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.SmallIntType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimeType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TinyIntType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UUIDType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UnknownType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.VarcharType
+[2021-05-17 17:16:20] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.XMLType
+[2021-05-17 17:19:31] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
+[2021-05-17 17:19:32] INFO [liquibase.pro] Successfully installed license from Base64 string starting with 'ABwwGgQUqm' (property liquibaseProLicenseKey).
+
+[2021-05-17 17:19:32] FINE [liquibase.pro] checking if license is installed
+[2021-05-17 17:19:32] FINE [liquibase.integration] Adding 'file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/ojdbc8-19.3.0.0.jar' to the Java classpath.
+[2021-05-17 17:19:32] FINE [liquibase.integration] Liquibase Hub API Key:  XKxvwW************
+[2021-05-17 17:19:32] FINE [liquibase.integration] Liquibase Hub URL:      https://hub.liquibase.com
+[2021-05-17 17:19:32] FINE [liquibase.integration] Liquibase Hub Mode:     OFF
+[2021-05-17 17:19:32] FINE [liquibase.resource] Adding path C:\Liquibase\liquibase-4.3.1\oracle_demo\. to resourceAccessor liquibase.resource.FileSystemResourceAccessor
+[2021-05-17 17:19:32] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.CockroachDatabase
+[2021-05-17 17:19:32] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DB2Database
+[2021-05-17 17:19:32] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Db2zDatabase
+[2021-05-17 17:19:32] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DerbyDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Firebird3Database
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.FirebirdDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.H2Database
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.HsqlDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.InformixDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Ingres9Database
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MSSQLDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MariaDBDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MockDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MySQLDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.OracleDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.PostgresDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SQLiteDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseASADatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseDatabase
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.UnsupportedDatabase
+[2021-05-17 17:19:33] FINE [liquibase.database] Properties:
+[2021-05-17 17:19:33] FINE [liquibase.database] Key:'user' Value:'SYSTEM'
+[2021-05-17 17:19:33] FINE [liquibase.database] Key:'password' Value:'**********'
+[2021-05-17 17:19:33] FINE [liquibase.database] Connecting to the URL:'jdbc:oracle:thin:@localhost:1521/xe' using driver:'oracle.jdbc.OracleDriver'
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection
+[2021-05-17 17:19:33] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection
+[2021-05-17 17:19:33] FINE [liquibase.database] Connection has been created
+[2021-05-17 17:19:34] FINE [liquibase.database] Connected to SYSTEM@jdbc:oracle:thin:@localhost:1521/xe
+[2021-05-17 17:19:34] FINE [liquibase.database] Setting auto commit to false from true
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Catalog
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Column
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Data
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.ForeignKey
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Index
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.PrimaryKey
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Schema
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Sequence
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.StoredProcedure
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Table
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.UniqueConstraint
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.View
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.appdba.synonym.Synonym
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.function.Function
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.trigger.Trigger
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance liquibase.executor.jvm.JdbcExecutor
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.OracleSqlPlusExecutor
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorDB2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorHsqlH2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorMySQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorSQLite
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNull
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorSQLite
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorDerby
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMSSQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMySQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorOracle
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorPostgres
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSQLite
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybase
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybaseASA
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorTDS
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AlterSequenceGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.BatchDmlExecutablePreparedStatementGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ClearDatabaseChangeLogTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CommentGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CopyRowsGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGeneratorSybase
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorFirebird
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorPostgres
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateProcedureGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DeleteGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropColumnGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropForeignKeyConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropIndexGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropPrimaryKeyGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropSequenceGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropUniqueConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropViewGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetNextChangeSetSequenceValueGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDB2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDerby
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorFirebird
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorHsql
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorMSSQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorOracle
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorPostgres
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybase
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybaseASA
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InitializeDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertDataChangeGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorDB2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorH2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorHsql
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMSSQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMySQL
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorOracle
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorPostgres
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSQLite
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSybaseASA
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertSetGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.LockDatabaseChangeLogGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.MarkChangeSetRanGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ModifyDataTypeGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawSqlGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReindexGeneratorSQLite
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RemoveChangeSetRanStatusGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameColumnGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameSequenceGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReorganizeTableGeneratorDB2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RuntimeGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetNullableGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.StoredProcedureGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TableRowCountGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TagDatabaseGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UnlockDatabaseChangeLogGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateChangeSetChecksumGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateDataChangeGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnusedGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.lockservice.LockService instance liquibase.lockservice.LockServiceImpl
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.lockservice.LockService instance liquibase.lockservice.MockLockService
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.lockservice.LockService instance liquibase.lockservice.OfflineLockService
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.lockservice.LockService instance liquibase.lockservice.StandardLockService
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.CatalogSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorH2
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorInformix
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorOracle
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorPostgres
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.DataSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ForeignKeySnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.IndexSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.PrimaryKeySnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.TableSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ViewSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.appdba.synonym.SynonymSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.postgres.PostgresCheckConstraintSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageBodySnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.FunctionSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.EDBPostgresFunctionSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.PostgresFunctionSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.mysql.MySQLFunctionSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.PostgresStoredProcedureSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MySQLStoredProcedureSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.StoredProcedureSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.postgres.PostgresTriggerSnapshotGenerator
+[2021-05-17 17:19:34] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:34] FINE [liquibase.executor] Create Database Lock Table
+[2021-05-17 17:19:34] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BigIntType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BlobType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BooleanType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CharType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.ClobType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CurrencyType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DatabaseFunctionType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateTimeType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DecimalType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.FloatType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.IntType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.MediumIntType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NCharType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NVarcharType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NumberType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.SmallIntType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimeType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TinyIntType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UUIDType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UnknownType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.VarcharType
+[2021-05-17 17:19:34] FINE [liquibase.servicelocator] Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.XMLType
+[2021-05-17 17:19:35] FINE [liquibase.executor] 0 row(s) affected
+[2021-05-17 17:19:35] FINE [liquibase.lockservice] Created database lock table with name: SYSTEM.DATABASECHANGELOGLOCK
+[2021-05-17 17:19:35] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:35] FINE [liquibase.executor] Initialize Database Lock Table
+[2021-05-17 17:19:35] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:35] FINE [liquibase.executor] 0 row(s) affected
+[2021-05-17 17:19:35] FINE [liquibase.executor] 1 row(s) affected
+[2021-05-17 17:19:35] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:35] FINE [liquibase.executor] Lock Database
+[2021-05-17 17:19:35] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:35] INFO [liquibase.lockservice] Successfully acquired change log lock
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.formattedsql.FormattedSqlChangeLogParser
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.json.JsonChangeLogParser
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.sql.SqlChangeLogParser
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.xml.XMLChangeLogSAXParser
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.yaml.YamlChangeLogParser
+[2021-05-17 17:19:35] FINE [liquibase.resource] Closing duplicate stream for file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/mychangelog.xml
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.CustomPreconditionWrapper
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.AndPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeLogPropertyDefinedPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeSetExecutedPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ColumnExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.DBMSPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ForeignKeyExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.IndexExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.NotPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ObjectQuotingStrategyPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.OrPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PreconditionContainer
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PrimaryKeyExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RowCountPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RunningAsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SequenceExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SqlPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableIsEmptyPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ViewExistsPrecondition
+[2021-05-17 17:19:35] FINE [liquibase.parser] Resolving XML entity name='null', publicId='null', baseURI='null', systemId='http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd'
+[2021-05-17 17:19:35] FINE [liquibase.resource] Closing duplicate stream for jar:file:/C:/Liquibase/liquibase-4.3.1/liquibase.jar!/www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+[2021-05-17 17:19:35] FINE [liquibase.parser] Found XML entity at jar:file:/C:/Liquibase/liquibase-4.3.1/liquibase.jar!/www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddAutoIncrementChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddColumnChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddDefaultValueChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddForeignKeyConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddLookupTableChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddNotNullConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddPrimaryKeyChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AddUniqueConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.AlterSequenceChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateIndexChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateProcedureChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateSequenceChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateTableChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.CreateViewChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DeleteDataChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropAllForeignKeyConstraintsChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropColumnChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropDefaultValueChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropForeignKeyConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropIndexChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropNotNullConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropPrimaryKeyChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropProcedureChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropSequenceChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropTableChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropUniqueConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.DropViewChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.EmptyChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.ExecuteShellCommandChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.InsertDataChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.LoadDataChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.LoadUpdateDataChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.MergeColumnChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.ModifyDataTypeChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.OutputChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RawSQLChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameColumnChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameSequenceChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameTableChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.RenameViewChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SQLFileChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SetColumnRemarksChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.SetTableRemarksChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.StopChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.TagDatabaseChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.core.UpdateDataChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance liquibase.change.custom.CustomChangeWrapper
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnsedChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerChange
+[2021-05-17 17:19:35] FINE [liquibase.servicelocator] Loaded liquibase.change.Change instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerChange
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.CatalogComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ColumnComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.DefaultDatabaseObjectComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ForeignKeyComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.IndexComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.PrimaryKeyComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.SchemaComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.TableComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.UniqueConstraintComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.appdba.diff.compare.SynonymComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.StoredLogicComparator
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintComparator
+[2021-05-17 17:19:36] FINE [liquibase.util] Computed checksum for 1621286376348 as 6d9703bdaa96cbd0edeeed1a8e836771
+[2021-05-17 17:19:36] FINE [liquibase.executor] Create Database Change Log Table
+[2021-05-17 17:19:36] INFO [liquibase.changelog] Creating database history table with name: SYSTEM.DATABASECHANGELOG
+[2021-05-17 17:19:36] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:36] FINE [liquibase.executor] 0 row(s) affected
+[2021-05-17 17:19:36] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:36] INFO [liquibase.changelog] Reading from SYSTEM.DATABASECHANGELOG
+[2021-05-17 17:19:36] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:36] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:36] FINE [liquibase.util] Computed checksum for createTable:[
+    columns=[
+        [
+            [
+                nullable="false"
+                primaryKey="true"
+            ]
+            name="id"
+            type="int"
+        ],
+        [
+            name="firstname"
+            type="varchar(50)"
+        ],
+        [
+            [
+                notNullConstraintName="JOB_TITLE_NN1234"
+                nullable="false"
+            ]
+            name="lastname"
+            type="varchar(50)"
+        ],
+        [
+            defaultVal... [truncated in log] as 12f05cf8d4b031d0f54aef7e828e5a5c
+[2021-05-17 17:19:36] FINE [liquibase.util] Computed checksum for 8:12f05cf8d4b031d0f54aef7e828e5a5c: as 2df5cd10a201465c44a86b67d58a48bc
+[2021-05-17 17:19:36] FINE [liquibase.servicelocator] Loaded liquibase.hub.HubService instance liquibase.hub.core.MockHubService
+[2021-05-17 17:19:37] FINE [liquibase.servicelocator] Loaded liquibase.hub.HubService instance liquibase.hub.core.StandardHubService
+[2021-05-17 17:19:37] WARNING [liquibase] The API key 'XKxvwW************' was found, but no changelog ID exists.
+No operations will be reported. Register this changelog with Liquibase Hub to generate free deployment reports.
+Learn more at https://hub.liquibase.com.
+[2021-05-17 17:19:37] FINE [liquibase.changelog] Running Changeset:mychangelog.xml::1::bob
+[2021-05-17 17:19:37] FINE [liquibase.executor] Changeset mychangelog.xml::1::bob
+[2021-05-17 17:19:37] FINE [liquibase.changelog] Reading ChangeSet: mychangelog.xml::1::bob
+[2021-05-17 17:19:37] FINE [liquibase.database] Executing Statement: liquibase.statement.core.CreateTableStatement@46fc522d
+[2021-05-17 17:19:37] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:37] FINE [liquibase.executor] 0 row(s) affected
+[2021-05-17 17:19:37] INFO [liquibase.changelog] Table department1234 created
+[2021-05-17 17:19:37] INFO [liquibase.changelog] ChangeSet mychangelog.xml::1::bob ran successfully in 36ms
+[2021-05-17 17:19:37] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:37] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:37] FINE [liquibase.executor] 1 row(s) affected
+[2021-05-17 17:19:37] FINE [liquibase.executor] Release Database Lock
+[2021-05-17 17:19:37] FINE [liquibase.executor] Executing with the 'jdbc' executor
+[2021-05-17 17:19:37] INFO [liquibase.lockservice] Successfully released change log lock
+[2021-05-17 17:27:18] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
+[2021-05-17 17:27:19] INFO [liquibase.pro] Successfully installed license from Base64 string starting with 'ABwwGgQUqm' (property liquibaseProLicenseKey).
+
+[2021-05-17 17:27:19] FINE [liquibase.pro] checking if license is installed
+[2021-05-17 17:27:19] FINE [liquibase.integration] Adding 'file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/ojdbc8-19.3.0.0.jar' to the Java classpath.
+[2021-05-17 17:27:19] FINE [liquibase.integration] Liquibase Hub URL:      https://hub.liquibase.com
+[2021-05-17 17:27:19] FINE [liquibase.integration] Liquibase Hub Mode:     OFF
+[2021-05-17 17:27:19] FINE [liquibase.resource] Adding path C:\Liquibase\liquibase-4.3.1\oracle_demo\. to resourceAccessor liquibase.resource.FileSystemResourceAccessor
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.CockroachDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DB2Database
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Db2zDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DerbyDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Firebird3Database
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.FirebirdDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.H2Database
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.HsqlDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.InformixDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Ingres9Database
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MSSQLDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MariaDBDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MockDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MySQLDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.OracleDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.PostgresDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SQLiteDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseASADatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseDatabase
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.UnsupportedDatabase
+[2021-05-17 17:27:19] FINE [liquibase.database] Properties:
+[2021-05-17 17:27:19] FINE [liquibase.database] Key:'user' Value:'SYSTEM'
+[2021-05-17 17:27:19] FINE [liquibase.database] Key:'password' Value:'**********'
+[2021-05-17 17:27:19] FINE [liquibase.database] Connecting to the URL:'jdbc:oracle:thin:@localhost:1521/xe' using driver:'oracle.jdbc.OracleDriver'
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection
+[2021-05-17 17:27:19] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection
+[2021-05-17 17:27:20] FINE [liquibase.database] Connection has been created
+[2021-05-17 17:27:20] FINE [liquibase.database] Connected to SYSTEM@jdbc:oracle:thin:@localhost:1521/xe
+[2021-05-17 17:27:20] FINE [liquibase.database] Setting auto commit to false from true
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Catalog
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Column
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Data
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.ForeignKey
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Index
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.PrimaryKey
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Schema
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Sequence
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.StoredProcedure
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Table
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.UniqueConstraint
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.View
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.appdba.synonym.Synonym
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.function.Function
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.trigger.Trigger
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.DiffCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.DiffToChangeLogCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.DropAllCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.ExecuteSqlCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.GenerateChangeLogCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.HistoryCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.RegisterChangeLogCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.SnapshotCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.command.core.SyncHubCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance liquibase.sdk.convert.ConvertCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance com.datical.liquibase.ext.command.FormattedDiffCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance com.datical.liquibase.ext.command.RollbackOneChangeSetCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.command.LiquibaseCommand instance com.datical.liquibase.ext.command.RollbackOneUpdateCommand
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.CatalogSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorH2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorOracle
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorPostgres
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.DataSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ForeignKeySnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.IndexSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.PrimaryKeySnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.TableSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ViewSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.appdba.synonym.SynonymSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.postgres.PostgresCheckConstraintSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageBodySnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.FunctionSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.EDBPostgresFunctionSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.PostgresFunctionSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.mysql.MySQLFunctionSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.PostgresStoredProcedureSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MySQLStoredProcedureSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.StoredProcedureSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.postgres.PostgresTriggerSnapshotGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance liquibase.executor.jvm.JdbcExecutor
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.OracleSqlPlusExecutor
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorDB2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorHsqlH2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorMySQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorSQLite
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNull
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorSQLite
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorDerby
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMSSQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMySQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorOracle
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorPostgres
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSQLite
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybase
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybaseASA
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorTDS
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AlterSequenceGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.BatchDmlExecutablePreparedStatementGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ClearDatabaseChangeLogTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CommentGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CopyRowsGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGeneratorSybase
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorFirebird
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorPostgres
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateProcedureGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DeleteGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropColumnGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropForeignKeyConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropIndexGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropPrimaryKeyGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropSequenceGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropUniqueConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropViewGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetNextChangeSetSequenceValueGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDB2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDerby
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorFirebird
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorHsql
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorMSSQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorOracle
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorPostgres
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybase
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybaseASA
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InitializeDatabaseChangeLogLockTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertDataChangeGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorDB2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorH2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorHsql
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorInformix
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMSSQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMySQL
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorOracle
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorPostgres
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSQLite
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSybaseASA
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertSetGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.LockDatabaseChangeLogGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.MarkChangeSetRanGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ModifyDataTypeGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawSqlGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReindexGeneratorSQLite
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RemoveChangeSetRanStatusGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameColumnGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameSequenceGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReorganizeTableGeneratorDB2
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RuntimeGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetNullableGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.StoredProcedureGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TableRowCountGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TagDatabaseGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UnlockDatabaseChangeLogGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateChangeSetChecksumGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateDataChangeGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnusedGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerGenerator
+[2021-05-17 17:27:20] FINE [liquibase.servicelocator] Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.DiffGenerator instance liquibase.diff.core.StandardDiffGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance liquibase.serializer.core.formattedsql.FormattedSqlChangeLogSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance liquibase.serializer.core.json.JsonChangeLogSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance liquibase.serializer.core.string.StringChangeLogSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance liquibase.serializer.core.xml.XMLChangeLogSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance liquibase.serializer.core.yaml.YamlChangeLogSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.serializer.ChangeLogSerializer instance com.datical.liquibase.ext.diff.FormattedDiffSerializer
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedColumnChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedForeignKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedIndexChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedPrimaryKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedSequenceChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedTableChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedUniqueConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.ChangedViewChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingColumnChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingDataChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingForeignKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingIndexChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingPrimaryKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingSequenceChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingTableChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingUniqueConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.MissingViewChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedColumnChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedForeignKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedIndexChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedPrimaryKeyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedSequenceChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedTableChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedUniqueConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance liquibase.diff.output.changelog.core.UnexpectedViewChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.appdba.diff.output.changelog.UnexpectedColumnChangeGeneratorAppDBA
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.appdba.synonym.ChangedSynonymChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.appdba.synonym.MissingSynonymChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.appdba.synonym.UnexpectedSynonymChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.ChangedCheckConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.MissingCheckConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.UnexpectedCheckConstraintChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.ChangedPackageBodyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.ChangedPackageBodyExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.ChangedPackageChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.ChangedPackageExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.MissingPackageBodyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.MissingPackageBodyExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.MissingPackageChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.MissingPackageExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.UnexpectedPackageBodyChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.UnexpectedPackageChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.function.ChangedFunctionChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.function.ChangedFunctionExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.function.MissingFunctionChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.function.MissingFunctionExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.function.UnexpectedFunctionChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.ChangedStoredProcedureChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.ChangedStoredProcedureExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MissingStoredProcedureChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MissingStoredProcedureExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.UnexpectedStoredProcedureChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.trigger.ChangedTriggerChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.trigger.ChangedTriggerExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.trigger.MissingTriggerChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.trigger.MissingTriggerExternalFileChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.diff.output.changelog.ChangeGenerator instance com.datical.liquibase.ext.storedlogic.trigger.UnexpectedTriggerChangeGenerator
+[2021-05-17 17:27:21] FINE [liquibase.diff] ChangedObjectChangeGenerator type order:     com.datical.liquibase.ext.appdba.synonym.Synonym    liquibase.structure.core.Catalog    liquibase.structure.core.ForeignKey    liquibase.structure.core.Schema    liquibase.structure.core.Sequence    liquibase.structure.core.Table    liquibase.structure.core.Column    liquibase.structure.core.PrimaryKey    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.Index    liquibase.structure.core.View    com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody    com.datical.liquibase.ext.storedlogic.function.Function    com.datical.liquibase.ext.storedlogic.trigger.Trigger    liquibase.structure.core.StoredProcedure
+[2021-05-17 17:27:21] FINE [liquibase.diff] MissingObjectChangeGenerator type order:     liquibase.structure.core.Catalog    liquibase.structure.core.Schema    liquibase.structure.core.Sequence    liquibase.structure.core.Table    liquibase.structure.core.Column    com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint    liquibase.structure.core.PrimaryKey    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.View    com.datical.liquibase.ext.storedlogic.function.Function    com.datical.liquibase.ext.storedlogic.trigger.Trigger    liquibase.structure.core.StoredProcedure    com.datical.liquibase.ext.appdba.synonym.Synonym    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody    liquibase.structure.core.Index    liquibase.structure.core.ForeignKey
+[2021-05-17 17:27:21] FINE [liquibase.diff] UnexpectedObjectChangeGenerator type order:     com.datical.liquibase.ext.appdba.synonym.Synonym    com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint    com.datical.liquibase.ext.storedlogic.function.Function    com.datical.liquibase.ext.storedlogic.trigger.Trigger    liquibase.structure.core.Catalog    liquibase.structure.core.ForeignKey    liquibase.structure.core.Schema    liquibase.structure.core.UniqueConstraint    liquibase.structure.core.View    liquibase.structure.core.Table    liquibase.structure.core.PrimaryKey    liquibase.structure.core.Column    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage    com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody    liquibase.structure.core.Index    liquibase.structure.core.Sequence    liquibase.structure.core.StoredProcedure
+[2021-05-17 17:27:21] INFO [liquibase.diff] changeSets count: 0
+[2021-05-17 17:27:21] INFO [liquibase.diff] No changesets to add.
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.parser.NamespaceDetails instance liquibase.parser.core.xml.StandardNamespaceDetails
+[2021-05-17 17:27:21] FINE [liquibase.servicelocator] Loaded liquibase.parser.NamespaceDetails instance com.datical.liquibase.ext.parser.LiquibaseProNamespaceDetails
+[2021-05-21 16:56:09] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
+[2021-05-21 16:56:11] INFO [liquibase.pro] Successfully installed license from Base64 string starting with 'ABwwGgQUqm' (property liquibaseProLicenseKey).
+
+[2021-05-21 16:56:11] FINE [liquibase.pro] checking if license is installed
+[2021-05-21 16:56:11] FINE [liquibase.integration] Adding 'file:/C:/Liquibase/liquibase-4.3.1/oracle_demo/ojdbc8-19.3.0.0.jar' to the Java classpath.
+[2021-05-21 16:56:11] FINE [liquibase.integration] Liquibase Hub URL:      https://hub.liquibase.com
+[2021-05-21 16:56:11] FINE [liquibase.integration] Liquibase Hub Mode:     OFF
+[2021-05-21 16:56:11] FINE [liquibase.resource] Adding path C:\Liquibase\liquibase-4.3.1\oracle_demo\. to resourceAccessor liquibase.resource.FileSystemResourceAccessor
+[2021-05-21 16:56:11] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.CockroachDatabase
+[2021-05-21 16:56:11] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DB2Database
+[2021-05-21 16:56:11] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Db2zDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.DerbyDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Firebird3Database
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.FirebirdDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.H2Database
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.HsqlDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.InformixDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.Ingres9Database
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MSSQLDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MariaDBDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MockDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.MySQLDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.OracleDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.PostgresDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SQLiteDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseASADatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.SybaseDatabase
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.Database instance liquibase.database.core.UnsupportedDatabase
+[2021-05-21 16:56:14] FINE [liquibase.database] Properties:
+[2021-05-21 16:56:14] FINE [liquibase.database] Key:'user' Value:'SYSTEM'
+[2021-05-21 16:56:14] FINE [liquibase.database] Key:'password' Value:'**********'
+[2021-05-21 16:56:14] FINE [liquibase.database] Connecting to the URL:'jdbc:oracle:thin:@localhost:1521/xe' using driver:'oracle.jdbc.OracleDriver'
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection
+[2021-05-21 16:56:14] FINE [liquibase.servicelocator] Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection
+[2021-05-21 16:56:16] FINE [liquibase.database] Connection has been created
+[2021-05-21 16:56:17] FINE [liquibase.database] Connected to SYSTEM@jdbc:oracle:thin:@localhost:1521/xe
+[2021-05-21 16:56:17] FINE [liquibase.database] Setting auto commit to false from true
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Catalog
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Column
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Data
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.ForeignKey
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Index
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.PrimaryKey
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Schema
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Sequence
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.StoredProcedure
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.Table
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.UniqueConstraint
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance liquibase.structure.core.View
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.appdba.synonym.Synonym
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraint
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackage
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.databasepackage.DatabasePackageBody
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.function.Function
+[2021-05-21 16:56:17] FINE [liquibase.servicelocator] Loaded liquibase.structure.DatabaseObject instance com.datical.liquibase.ext.storedlogic.trigger.Trigger
+[2021-05-21 16:56:17] SEVERE [liquibase.integration] Unexpected error running Liquibase: Output ChangeLogFile 'newchangelog.xml' already exists!
+liquibase.exception.LiquibaseException: Output ChangeLogFile 'newchangelog.xml' already exists!
+	at liquibase.integration.commandline.Main.doMigration(Main.java:1506)
+	at liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:364)
+	at liquibase.Scope.lambda$child$0(Scope.java:160)
+	at liquibase.Scope.child(Scope.java:169)
+	at liquibase.Scope.child(Scope.java:159)
+	at liquibase.Scope.child(Scope.java:138)
+	at liquibase.integration.commandline.Main$1.run(Main.java:363)
+	at liquibase.integration.commandline.Main$1.run(Main.java:193)
+	at liquibase.Scope.child(Scope.java:169)
+	at liquibase.Scope.child(Scope.java:145)
+	at liquibase.integration.commandline.Main.run(Main.java:193)
+	at liquibase.integration.commandline.Main.main(Main.java:156)
+
+[2021-06-02 16:12:37] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
+[2021-06-02 16:15:20] FINE [liquibase.servicelocator] Loaded liquibase.license.LicenseService instance liquibase.pro.license.keymgr.DaticalTrueLicenseService
